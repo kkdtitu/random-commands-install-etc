@@ -7,4 +7,4 @@ git status
 git commit -m "commit July 19, 2020"
 git status
 git remote add kkdtitu-random-commands-install-etc https://github.com/kkdtitu/random-commands-install-etc
-git push -u kkdtitu-random-commands-install-etc
+git push -u kkdtitu-random-commands-install-etc master
