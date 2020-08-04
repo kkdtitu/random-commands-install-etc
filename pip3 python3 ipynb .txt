@@ -1,0 +1,6 @@
+pip3 install matplotlib
+pip3 install pandas
+pip3 list --format=json
+pip3 list --format=columns
+python3 --version
+jupyter notebook
