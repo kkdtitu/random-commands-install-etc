@@ -15,15 +15,18 @@ jupyter notebook
 ls -altr | grep docx | grep pyspark
 touch git_commands.txt
 
-python3 -m pip list | grep pandas
-sudo python3 -m pip uninstall -y pandas 
-sudo python3 -m pip install pandas 
+python3 -m pip list | grep numpy
+sudo python3 -m pip uninstall -y numpy  	*** IF there are multiple versions installed, the uninstall process will have to be repeated mulitple times
+pip list | grep pandas				*** Once you uninstall one version, other versions will still show up. So repeat uninstall process
+sudo python3 -m pip uninstall -y numpy 
+sudo python3 -m pip install numpy 
+
 
 sudo pip3 install scikit-learn
 sudo pip3 install scikit-learn-extra
 sudo python3 -m pip install scikit-learn-extra 
 
-sudo pip3 install spark-nlp==1.7.3
+sudo pip3 install spark-nlp==1.7.3		*** Installing a specific version of spark-nlp
 pip3 list | grep spark
 sudo pip3 uninstall spark-nlp
 pip3 list | grep spark
