@@ -14,3 +14,11 @@ which pip3
 jupyter notebook
 ls -altr | grep docx | grep pyspark
 touch git_commands.txt
+
+python3 -m pip list | grep pandas
+sudo python3 -m pip uninstall -y pandas 
+sudo python3 -m pip install pandas 
+
+sudo pip3 install scikit-learn
+sudo pip3 install scikit-learn-extra
+sudo python3 -m pip install scikit-learn-extra 
