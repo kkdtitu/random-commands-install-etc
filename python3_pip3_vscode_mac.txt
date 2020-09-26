@@ -1,0 +1,7 @@
+https://www.python.org/downloads/mac-osx
+https://www.python.org/downloads/release/python-378/
+And go with macOS 64-bit installer
+
+https://pip.pypa.io/en/stable/installing/
+
+https://code.visualstudio.com/

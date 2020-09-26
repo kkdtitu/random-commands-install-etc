@@ -1,0 +1,31 @@
+https://www.liquidweb.com/kb/how-to-install-python-3-on-centos-7/
+https://pypi.org/project/aws-okta-keyman/
+https://code.visualstudio.com/docs/setup/linux
+
+sudo yum install python3-pip
+which python3
+which pip3
+python3 --version
+pip3 --version
+sudo pip3 install pandas
+sudo pip3 install numpy
+sudo pip3 install boto3
+
+sudo pip3 install aws-okta-keyman
+pip3 list
+aws_okta_keyman -o ORG -u USER -a APPNAME
+aws s3 ls
+aws ec2 describe-regions
+aws configure
+
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+yum check-update
+sudo yum install code
+which code
+code
+
+
+
