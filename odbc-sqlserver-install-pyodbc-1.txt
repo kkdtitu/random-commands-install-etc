@@ -1,6 +1,7 @@
 https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15
 https://pypi.org/project/pyodbc/
 https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/step-3-proof-of-concept-connecting-to-sql-using-pyodbc?view=sql-server-ver15
+look at sample-pyobdc.py
 
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -20,3 +21,4 @@ ls -ltr
 
 pip3 install pyodbc --user
 pip3 list | grep pyodbc
+
