@@ -1,0 +1,22 @@
+https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15
+https://pypi.org/project/pyodbc/
+
+
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+brew update
+HOMEBREW_NO_ENV_FILTERING=1 ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
+
+sudo ln -s /usr/local/etc/odbcinst.ini /etc/odbcinst.ini
+sudo ln -s /usr/local/etc/odbc.ini /etc/odbc.ini
+
+cd /usr/local/lib
+ls -ltr
+cd /usr/local/etc
+ls -ltr
+cd /etc
+ls -ltr
+
+pip3 install pyodbc --user
+pip3 list | grep pyodbc
