@@ -1,0 +1,10 @@
+#macos
+https://flaviocopes.com/sqlite-how-to-install/
+
+#Ubuntu
+#https://smallbusiness.chron.com/use-sqlite-ubuntu-46774.html
+sudo apt-get install sqlite3 libsqlite3-dev
+sqlite3 kkd.db
+
+https://sqlite.org/cli.html
+
