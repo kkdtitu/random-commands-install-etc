@@ -1,0 +1,10 @@
+#Finding linux versions
+cat /etc/*-release
+
+lsb_release -a
+
+hostnamectl
+
+uname -a
+uname -mrs
+
