@@ -7,6 +7,8 @@ pip3 install plotly --user
 pip3 install dash --user
 pip3 install plotly --upgrade
 pip install dash --upgrade
+pip3 install plotly==3.10.0
+pip3 install plotly==4.14.3
 pip3 list --help
 pip3 list -h
 pip3 list --format=json
