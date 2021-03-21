@@ -3,6 +3,8 @@ sudo pip3 install jupyterlab
 jupyter notebook
 sudo pip3 install matplotlib
 sudo pip3 install pandas
+pip3 install plotly --user
+pip3 install dash --user
 pip3 list --help
 pip3 list -h
 pip3 list --format=json
