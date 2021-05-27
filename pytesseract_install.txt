@@ -1,2 +1,2 @@
 brew install tesseract
-pip3 install pytesseract
+pip3 install pytesseract --user
