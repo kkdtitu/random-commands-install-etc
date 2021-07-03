@@ -1,0 +1,4 @@
+https://pillow.readthedocs.io/en/stable/installation.html
+
+python3 -m pip install --upgrade pip --user
+python3 -m pip install --upgrade Pillow --user
