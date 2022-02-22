@@ -1,0 +1,4 @@
+pip3 install jupyter --user
+pip3 install jupyterlab --user
+pip3 install notebook --user
+/Users/kkd/Library/Python/3.8/bin/jupyter-notebook
