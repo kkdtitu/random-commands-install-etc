@@ -1,0 +1,16 @@
+https://levelup.gitconnected.com/how-to-install-and-run-jupyter-notebook-for-mac-users-d320e3d62b83
+
+pip3 install jupyter --user
+pip3 install jupyterlab --user
+pip3 install notebook --user
+/Users/kkd/Library/Python/3.8/bin/jupyter-notebook
+
+echo $PATH
+
+cd ~
+vi .zshrc and add:
+export PATH=$PATH:/Users/kkd/Library/Python/3.8/bin
+
+Then do:
+source .zshrc
+jupyter-notebook
