@@ -1,8 +1,0 @@
-https://www.timescale.com/blog/how-to-install-psql-on-mac-ubuntu-debian-windows/
-https://dba.stackexchange.com/questions/3005/how-to-run-psql-on-mac-os-x
-
-brew install libpq
-brew info libpq
-echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
-brew info libpq
-which psql

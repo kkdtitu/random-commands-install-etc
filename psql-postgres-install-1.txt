@@ -1,0 +1,35 @@
+psql install:
+------------
+https://www.timescale.com/blog/how-to-install-psql-on-mac-ubuntu-debian-windows/
+https://dba.stackexchange.com/questions/3005/how-to-run-psql-on-mac-os-x
+
+brew install libpq
+brew info libpq
+echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
+brew info libpq
+which psql
+
+==============================================
+Postgres install:
+----------------
+https://www.postgresql.org/download/macosx/
+brew install postgresql
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql after an upgrade:
+  brew services restart postgresql
+
+brew services stop postgresql
+
+==================================================
+Setup and configure postgres with psql:
+----------------------------------------
+https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
+https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
+
+psql postgres
+
