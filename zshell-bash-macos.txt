@@ -1,0 +1,13 @@
+Bash vs Z-shell:
+https://medium.com/@harrison.miller13_28580/bash-vs-z-shell-a-tale-of-two-command-line-shells-c65bb66e4658
+https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/
+https://zshwiki.org/home/why-did-apple-switch-to-zsh/
+
+https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where
+
+Z-shell
+https://zsh.sourceforge.io/Doc/Release/index.html
+
+.zprofile, .zshrc, .zenv,
+https://www.zerotohero.dev/zshell-startup-files/
+
