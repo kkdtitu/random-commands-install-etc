@@ -2,6 +2,7 @@ psql install:
 ------------
 https://www.timescale.com/blog/how-to-install-psql-on-mac-ubuntu-debian-windows/
 https://dba.stackexchange.com/questions/3005/how-to-run-psql-on-mac-os-x
+https://stackoverflow.com/questions/44654216/correct-way-to-install-psql-without-full-postgres-on-macos
 
 brew install libpq
 brew info libpq
