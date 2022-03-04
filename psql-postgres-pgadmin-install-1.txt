@@ -1,3 +1,8 @@
+pgadmin:
+-------
+https://www.pgadmin.org/
+https://www.pgadmin.org/download/pgadmin-4-macos/
+
 psql install:
 ------------
 https://www.timescale.com/blog/how-to-install-psql-on-mac-ubuntu-debian-windows/
