@@ -41,6 +41,8 @@ https://www.postgresqltutorial.com/
 https://kb.objectrocket.com/postgresql/how-to-run-an-sql-file-in-postgres-846#:~:text=The%20%5Ci%20command%20can%20aslo,%2C%20with%20the%20%5Cc%20command.
 https://www.postgresqltutorial.com/psql-commands/ 
 https://gpdb.docs.pivotal.io/archive/gs/43/pdf/PSQLQuickRef.pdf
+https://quickref.me/postgres
+
 
 psql postgres
 postgres=# CREATE ROLE kkd WITH LOGIN PASSWORD 'kkd';
