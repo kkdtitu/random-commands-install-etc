@@ -1,3 +1,7 @@
+history
+ls -altr | wc -l
+ls -altr | grep linux
+
 #Finding linux versions
 cat /etc/*-release
 
