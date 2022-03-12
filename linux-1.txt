@@ -2,6 +2,8 @@ history
 ls -altr | wc -l
 ls -altr | grep linux
 
+#wget, curl
+https://www.baeldung.com/linux/curl-wget
 
 #Finding linux versions
 cat /etc/*-release
